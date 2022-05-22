@@ -1,4 +1,14 @@
 .cover {
     margin: 0 auto;
     width: 1184px;
+    height: 740px;
+    display: flex;
+    background-image: url("../../images/cover-trains.jpg"), linear-gradient(rgba(42,44,47,0.3),rgba(42,44,47,0.3));
+    background-blend-mode: overlay;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
