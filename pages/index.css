@@ -27,6 +27,7 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__header/cover__header.css);
 @import url(../blocks/cover/__subheader/cover__subheader.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__links/footer__links.css);

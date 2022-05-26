@@ -1,9 +1,15 @@
 .header {
-    width: 1184px;
+    width: calc(100% - 48px*2);
     height: 52px;
     margin: 0 auto;
     padding-top: 28px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        width: calc(1280px - 48px*2);
+    }
 }
