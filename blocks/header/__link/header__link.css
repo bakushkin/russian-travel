@@ -9,3 +9,11 @@
 .header__link_inactive {
     text-decoration: none;
 }
+
+@media screen and (max-width: 767px) {
+    .header__link {
+        /* width: calc(100% - 16px*2); */
+        font-size: 18px;
+        line-height: 1.11;
+    }
+}
