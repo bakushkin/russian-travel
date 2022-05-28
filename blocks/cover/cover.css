@@ -7,6 +7,7 @@
     background-blend-mode: overlay;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,9 +18,16 @@
     background-image: url("../../images/cover-trains.jpg"), linear-gradient(rgba(42,44,47,0.8),rgba(42,44,47,0.8));
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 320px) {
     .cover {
         max-width: 100%;
         height: 200px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        max-width: 100%;
+        height: 640px;
     }
 }
