@@ -1,9 +1,18 @@
 .cover__subheader {
-width: 360px;
-text-align: center;
-font-style: normal;
-font-weight: 400;
-font-size: 1.22; /*18px*/
-line-height: 22px;
-margin: 32px 0 0 0;
+    width: 360px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    margin: 32px 0 0 0;
+}
+
+@media (max-width: 320px) {
+    .cover__subheader {
+        font-size: 14px;
+        line-height: 1.1428;
+        max-width: 288px;
+        margin: 16px 0 0 0;
+    }
 }

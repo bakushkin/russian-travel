@@ -4,4 +4,13 @@
     font-size: 72px;
     line-height: 1.056; /*76px*/ 
     margin: 0;
+    max-width: 460px;
+}
+
+@media screen and (max-width: 320px) {
+    .place__header {
+        font-size: 32px;
+        line-height: 1.09375;
+        margin: 0 16px;
+    }
 }

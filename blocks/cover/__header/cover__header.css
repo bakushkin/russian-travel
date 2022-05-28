@@ -7,3 +7,11 @@ text-align: center;
 width: 560px;
 margin: 0;
 }
+
+@media (max-width: 320px) {
+    .cover__header {
+        font-size: 32px;
+        line-height: 1.09375;
+        max-width: 288px;
+    }
+}

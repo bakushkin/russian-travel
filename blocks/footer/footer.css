@@ -1,5 +1,10 @@
 .footer {
-    width: 100%;
-    margin: 92px auto 0;
-    padding-bottom: 24px;
+    width: calc(100% - 48px*2);
+    margin: 92px auto 24px;
+}
+
+@media (max-width: 320px) {
+    .footer {
+        margin: 0 0 24px 16px;
+    }
 }
