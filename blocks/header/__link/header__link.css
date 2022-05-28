@@ -17,3 +17,7 @@
         line-height: 1.11;
     }
 }
+
+.header__link:first-of-type {
+    margin-right: 18px;
+}
