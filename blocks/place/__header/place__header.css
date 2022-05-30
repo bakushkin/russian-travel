@@ -7,10 +7,18 @@
     max-width: 460px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .place__header {
         font-size: 32px;
         line-height: 1.09375;
+        margin: 0 16px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .place__header {
+        font-size: 42px;
+        line-height: 1.095;
         margin: 0 16px;
     }
 }
