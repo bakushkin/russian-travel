@@ -21,12 +21,17 @@
 @media screen and (max-width: 320px) and (max-width: 767px) {
     .cover {
         max-width: 100%;
-        
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
     .cover {
         height: 62.5vw;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cover {
+        height: 740px;
     }
 }

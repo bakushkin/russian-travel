@@ -8,14 +8,6 @@
     box-sizing: content-box;
 }
 
-/* @media screen and (max-width: 424px) {
-    .header {
-        width: calc(100% - 16px*2);
-        height: 42px;
-        margin: 16px auto 48px;
-    }
-} */
-
 @media screen and (max-width: 767px) {
     .header {
         width: calc(100% - 24px*2);
