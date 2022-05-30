@@ -1,17 +1,20 @@
-.footer__links {
+.footer__list {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    list-style: none;
+    padding: 0;
 }
 
 @media (max-width: 767px) {
-    .footer__links {
-        margin: 0 0 14px;
+    .footer__list {
+        margin: 0 0 0px;
     }
 }
 
 
 @media (max-width: 767px) {
-    .footer__links {
+    .footer__list {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;

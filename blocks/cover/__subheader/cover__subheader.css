@@ -6,13 +6,14 @@
     font-size: 18px;
     line-height: 1.22;
     margin: 32px 0 0 0;
+    z-index: 3;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .cover__subheader {
         font-size: 14px;
         line-height: 1.1428;
-        max-width: 288px;
+        max-width: 90vw;
         margin: 16px 0 0 0;
     }
 }
