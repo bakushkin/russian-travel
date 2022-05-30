@@ -6,6 +6,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
+    transition: 0.3s ease-in-out;
 }
 
 .footer__link:hover {
