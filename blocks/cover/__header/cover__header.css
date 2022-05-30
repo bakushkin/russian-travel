@@ -15,3 +15,11 @@ margin: 0;
         max-width: 288px;
     }
 }
+
+@media (max-width: 767px) {
+    .cover__header {
+        font-size: 10vw;
+        line-height: 1.09375;
+        max-width: 90vw;
+    }
+}
